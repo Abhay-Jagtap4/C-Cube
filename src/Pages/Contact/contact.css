@@ -1,0 +1,185 @@
+.form {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    top: 5rem;
+    width: 70%;
+    margin: 60px auto 50px auto;
+    padding: 30px;
+    padding: 15px;
+    border: 2px solid #1d1160;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px 5px #546add;
+}
+
+.form>h1 {
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 2.6rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+.form>label {
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 20px 15px 0px 10px;
+}
+
+.response, .PhoneInput, .PhoneInputInput {
+    padding: 0.3rem;
+    width: 60%;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+    margin: 7.5px 0 7.5px 0;
+    border-radius: 10px;
+}
+
+.send-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 7rem;
+    height: 2.6rem;
+    border: 2.5px solid white;
+    border-radius: 10px;
+    font-size: 1.6rem;
+    color: white;
+    transition: 0.15s;
+}
+
+.send-btn:hover {
+    border: 2.5px solid crimson;
+}
+
+.map-title {
+    text-align: center;
+    margin-top: 12rem;
+}
+
+.filled-map {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 0%;
+    height: 2.5px;
+    left: 44%;
+    background-color: #3457D5;
+    transition: 0.30s ease-out;
+}
+
+.map-title:hover .filled-map {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    background-color: #3457D5;
+    transition: 0.30s ease-out;
+}
+
+.map-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+.map {
+    width: 35rem;
+    height: 25rem;
+    margin-top: 0.5rem;
+    border-radius: 10px;
+}
+
+.box-c {
+    margin-top: 7rem;
+}
+
+.filled-c {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    width: 0%;
+    height: 2.5px;
+    left: 41%;
+    background-color: #3457D5;
+    transition: 0.30s ease-out;
+}
+
+.box-c:hover .filled-c {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 18%;
+    background-color: #3457D5;
+    transition: 0.30s ease-out;
+}
+
+.contact-info {
+    width: 35rem;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: 'Manrope';
+    /* Pre tag uses default font */
+    margin: 20px auto -10px auto;
+    padding: 20px;
+    border-radius: 10px;
+    overflow: auto;
+    color: white !important;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    border: 1.5px solid #3457D5;
+    box-shadow: 0px 0px 10px 2px #1877F2;
+}
+
+@media screen and (max-width: 600px) {
+    .form {
+        width: 90%;
+    }
+    .form>h1 {
+        font-size: 2rem;
+    }
+    .label {
+        font-size: 0.5rem;
+    }
+    .response, .PhoneInput, .PhoneInputInput {
+        margin: 5px 0 5px 0;
+        width: 90%;
+        font-size: 0.9rem;
+    }
+    .send-btn {
+        font-size: 1.2rem;
+    }
+    .filled-map {
+        left: 30%;
+    }
+    .map-title:hover .filled-map {
+        width: 40%;
+    }
+    .map {
+        /* width: 20rem; */
+        width: 90%;
+        height: 20rem;
+    }
+    .filled-c {
+        left: 20%;
+    }
+    .box-c:hover .filled-c {
+        width: 60%;
+    }
+    .contact-info {
+        /* width: 20rem; */
+        width: 90%;
+    }
+}

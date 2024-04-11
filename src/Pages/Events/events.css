@@ -1,0 +1,32 @@
+.events-container {
+  margin-top: 10rem;
+}
+
+.events-title {
+    text-align: center;
+    color: #3457D5;
+    font-size: 3rem;
+}
+
+/* .events-intro{
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events-heading{
+  font-size: 50px;
+  color: #3457D5;
+}
+
+.events-intro-info{
+  margin: 20px 120px 0 120px;
+  text-align: center;
+} */
+
+@media screen and (max-width: 600px) {
+  .events-title{
+    margin-top: 6rem;
+  }
+}
